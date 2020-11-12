@@ -1,70 +1,152 @@
 [
-  {
-    "name": "All Comments Addressed",
-    "color": "006b75"
-  },
-  {
-    "name": "Do Not Merge",
-    "color": "b60205"
-  },
-  {
-    "name": "Final Review Passed",
-    "color": "0e8a16"
-  },
-  {
-    "name": "Has Dependencies",
-    "color": "5319e7"
-  },
-  {
-    "name": "Has Unaddressed Comments",
-    "color": "d93f0b"
-  },
-  {
-    "name": "In Development",
-    "color": "fbca04"
-  },
-  {
-    "name": "In QA",
-    "color": "fbca04"
-  },
-  {
-    "name": "In Review",
-    "color": "fbca04"
-  },
-  {
-    "name": "Initial Review Passed",
-    "color": "0e8a16"
-  },
-  {
-    "name": "Needs Final Review",
-    "color": "b60205"
-  },
-  {
-    "name": "Needs Rebase",
-    "color": "e99695"
-  },
-  {
-    "name": "Pending CI",
-    "color": "fef2c0"
-  },
-  {
-    "name": "QA Failed",
-    "color": "b60205"
-  },
-  {
-    "name": "QA Passed",
-    "color": "0e8a16"
-  },
-  {
-    "name": "Ready for QA",
-    "color": "c2e0c6"
-  },
-  {
-    "name": "Ready for Review",
-    "color": "c2e0c6"
-  },
-  {
-    "name": "Tests Failing",
-    "color": "b60205"
-  }
+   {
+      "name":"In Development",
+      "color":"fbca04",
+      "description":"Work is not finished and therefore not ready for a formal review."
+   },
+   {
+      "name":"Ready For Code Review",
+      "color":"c2e0c6",
+      "description":"Indicates the PR is ready for a review."
+   },
+   {
+      "name":"Ready For Feature Review",
+      "color":"c2e0c6",
+      "description":"Indicates the PR is ready for a review."
+   },
+   {
+      "name":"Ready For QA",
+      "color":"c2e0c6",
+      "description":"Indicates the PR is ready for a review."
+   },
+   {
+      "name":"Ready For External FR",
+      "color":"c2e0c6",
+      "description":"Indicates the PR is ready for a review."
+   },
+   {
+      "name":"Ready For External QA",
+      "color":"c2e0c6",
+      "description":"Indicates the PR is ready for a review."
+   },
+   {
+      "name":"Release Tied To Other Repo",
+      "color":"5319e7",
+      "description":"Indicates a PR needs to be released along with a PR in another repo."
+   },
+   {
+      "name":"Unmerged Dependency In Other Repo",
+      "color":"5319e7",
+      "description":"Indicates a dependency must be merged and released before."
+   },
+   {
+      "name":"As Its Own Release",
+      "color":"d93f0b",
+      "description":"Indicates to the Release Manager this PR requires extensive testing and may require follow-up fixes."
+   },
+   {
+      "name":"Must Go In Next Release",
+      "color":"1d76db",
+      "description":"This is high priority and must go in next release."
+   },
+   {
+      "name":"Site-Locale Specific",
+      "color":"d4c5f9",
+      "description":"Indicates the changeset only affects a specific Site or Locale, faster to be tested in a release."
+   },
+   {
+      "name":"Merge - Test After 3PM EST",
+      "color":"e99695",
+      "description":"Indicates to the Release Manager that testing from a team in a different timezone is required."
+   },
+   {
+      "name":"Do Not Merge",
+      "color":"d93f0b",
+      "description":"Do not merge a PR tagged with this label."
+   },
+   {
+      "name":"STAMP",
+      "color":"84b6eb",
+      "description":"Indicates this is a STAMP specific feature."
+   },
+   {
+      "name":"Needs Visual Regression",
+      "color":"fef2c0",
+      "description":"Indicates that a quick smoke test on a specific feature is required."
+   },
+   {
+      "name":"Needs Full Regression",
+      "color":"fef2c0",
+      "description":"Indicates a Full Regression is needed for the service/application."
+   },
+   {
+      "name":"In Code Review",
+      "color":"fbca04",
+      "description":"Indicates this PR\\'s review is in progress."
+   },
+   {
+      "name":"In Feature Review",
+      "color":"fbca04",
+      "description":"Indicates this PR\\'s review is in progress."
+   },
+   {
+      "name":"In QA",
+      "color":"fbca04",
+      "description":"Indicates this PR\\'s review is in progress."
+   },
+   {
+      "name":"Unaddressed Comments",
+      "color":"d93f0b",
+      "description":"Indicates there are Unaddressed Comments from 1 or more of the reviewers."
+   },
+   {
+      "name":"Comments Addressed",
+      "color":"006b75",
+      "description":"Indicates all comments have been addressed after a review round."
+   },
+   {
+      "name":"Passed Code Review",
+      "color":"0e8a16",
+      "description":"Indicates a successful review."
+   },
+   {
+      "name":"Passed Feature Review",
+      "color":"0e8a16",
+      "description":"Indicates a successful review."
+   },
+   {
+      "name":"Passed QA",
+      "color":"0e8a16",
+      "description":"Indicates a successful review."
+   },
+   {
+      "name":"Passed External FR",
+      "color":"0e8a16",
+      "description":"Indicates a successful review."
+   },
+   {
+      "name":"Passed External QA",
+      "color":"0e8a16",
+      "description":"Indicates a successful review."
+   },
+   {
+      "name":"Ready To Merge",
+      "color":"45e863",
+      "description":"Indicates the Pull Request has passed all needed reviews."
+   },
+   {
+      "name":"Needs Rebase",
+      "color":"e99695",
+      "description":"A conflict with the base branch or a dependency has been merged."
+   },
+   {
+      "name":"Pending Travis",
+      "color":"fef2c0",
+      "description":"A conflict or dependency has been resolved and will be ready after the current build finishes"
+   },
+   {
+      "name":"Verified In Stage",
+      "color":"0e8a16",
+      "description":"Indicates the Pull Request has been tested and confirmed on Stage."
+   }
 ]
